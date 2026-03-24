@@ -13,8 +13,6 @@
 - CUDA: 11.8 (recommended)
 - GPU: NVIDIA 4090 GPU 
 
-###  Environment Setup 
-
 ```bash
 # Clone and enter project
 git clone https://github.com/zhn0504/SDGformer.git
@@ -49,6 +47,9 @@ cd ..
 
 Used training and testing sets can be downloaded as follows:
 
+
+Rain Streaks
+
 <table>
   <thead>
     <tr>
@@ -80,10 +81,40 @@ Used training and testing sets can be downloaded as follows:
   </tbody>
 </table>
 
+
+
+Raindrops
+<table>
+  <thead>
+    <tr>
+      <th><div align="center">Training Set</div></th>
+      <th><div align="center">Testing Set</div></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <div align="center"><strong>Train</strong></div>
+        <div align="left">
+          Complete training dataset:
+          <a href="https://drive.google.com/drive/folders/1e7R76s6vwUJxILOcAsthgDLPSnOrQ49K">Google Drive</a>
+        </div>
+      </td>
+      <td>
+        <div align="center"><strong>Test a/b</strong></div>
+        <div align="left">
+          Complete testing dataset:
+          <a href="https://drive.google.com/drive/folders/1e7R76s6vwUJxILOcAsthgDLPSnOrQ49K">Google Drive</a>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
 Download training and testing datasets and put them into the corresponding folders of `Datasets/`. See [Datasets](Datasets/README.md) for the detail of the directory structure.
-
-
-
 
 ## <a name="training"></a>🔧 Training and Evaluation
 
