@@ -4,13 +4,14 @@
 > **Abstract:** Image deraining aims to reconstruct high-quality scenes from degradations caused by rain streaks and raindrops. Although recent Transformers enhance long-range modeling, they rely on inefficient attention (dense or fixed sparse), wasting computation on rain-irrelevant regions and introducing noisy interactions. To address these issues, we propose a Sparse Dynamic Gate Transformer (SDGformer), which learns where to attend by coupling content-adaptive sparse attention with local structure refinement. Specifically, a Dynamic Gate Operator (DGO) predicts input-dependent attention sparsity and scope, allocating computation to rain-degraded regions on demand. Built on DGO, Sparse Gate Self-Attention (SGSA) captures global dependencies with dynamic sparsity, while a parallel Local Group Convolution Enhancer (LGCE) sharpens edges and textures by reweighting local feature groups. Moreover, a Mixed-scale Frequency Feed-forward Network (MFFN) integrates multi-scale spatial features with complementary frequency cues to restore fine details. Extensive experiments demonstrate that SDGformer achieves state-of-the-art performance on eight benchmark datasets and generalizes well to other image restoration tasks.
 ![](Figs/overview.png)
 ---
+
 <details>
 <summary>Overall Framework (click to expand)</summary>
 
 <p align="center">
   <img width="900" src="Figs/framework.png">
 </p>
-<details>
+</details>
 
 
 
