@@ -7,8 +7,6 @@
 <details>
 <summary>Overall Framework (click to expand)</summary>
 
-- Overall Framework
-
 <p align="center">
   <img width="900" src="Figs/framework.png">
 </p>
